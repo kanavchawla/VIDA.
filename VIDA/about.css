@@ -1,0 +1,13 @@
+body{
+    background: url(newuser.jpg) ;
+    background-size: cover;
+    color: aliceblue;
+    text-align: center;
+  }
+  p{
+      text-align: left;
+      font-size: 30px;
+  }
+  h1{
+    font-size: 50px;
+  }

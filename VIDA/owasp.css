@@ -1,0 +1,48 @@
+.bg{
+    background-color: black;
+}
+.image{
+    width: 500px;
+    height: auto;
+}
+.image__image{
+    padding-right: 25px;
+    float: left;
+    width:100%;
+    height:100%;
+}
+.text{
+    color: aliceblue;
+    font-size: large;
+}
+.card-body{
+    color: aliceblue;
+    opacity: 1;
+    margin-left: 20px;
+    display: flex;  
+  justify-content: center 
+}
+.card{
+    margin-left: 700px;
+    border-radius: 5px;
+    width: 500px;
+    height: 50px;
+    background-color: gray;
+    opacity: 1;
+}
+.all:hover>.card{
+    transition: .25s;
+    margin-left: 600px;
+    width: 800px;
+    height: 400px;
+    font-size: 2em;
+}
+
+    
+
+
+
+
+
+    
+

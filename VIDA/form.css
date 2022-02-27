@@ -1,0 +1,106 @@
+body{
+  background: url(newuser.jpg) ;
+  background-size: cover;
+}
+form{
+background-color: rgba(252, 252, 252, 0);
+  text-align: center;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 500px;
+  height: 500px;
+  filter: blur(0.4px);
+  box-shadow: 10px 100px 40px  rgba(0,0,0,0.3),
+   -10px -10px 40px  rgba(0,0,0,0.3),
+  -10px 10px 40px  rgba(0,0,0,0.3),
+  10px -10px 40px  rgba(0,0,0,0.3);   
+  
+}
+
+form h1{
+  color: white;
+  font-size: 50px;
+  font-family:sans-serif;
+  border-bottom: 5px solid #ffffff;
+  margin-top: auto;
+}
+
+input[type=email] {
+  width: 200px;
+  height: 0.4cm;
+  background-color: rgba(255,255,255,0);
+  border-style:none;
+  transition: width 0.24s ease-in-out;
+  text-align: left;
+  margin-bottom: 0px;
+  margin-top: auto;
+  }
+  
+  input[type=email]:focus {
+    width: 250px;
+  }
+  input[type=password] {
+    width: 200px;
+    height: 0.4cm;
+    background-color: rgba(255,255,255,0);
+    border-style:none;
+    transition: width 0.24s ease-in-out;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  
+  input[type=password]:focus {
+    width: 250px;
+  }
+
+.textbox{
+  padding: 8px 0;
+  margin: 8px 0;
+}
+input[type=submit]:focus {
+  background-color: rgba(28, 122, 25,0.5);
+}
+input[type=submit]{
+  margin-top: 2%;
+  background-color:rgb(41, 52, 68);
+  border-style: hidden;
+  color: #ffffff;
+  width: 40%;
+  height: 40%;
+}
+::placeholder {
+  font-size: larger;
+  color: white;
+  opacity: 1; 
+}
+img{
+  height: 60px;
+  padding-top: 2%;
+}
+
+.or{
+  font-family:serif;
+  color: #ffffff;
+}
+img[src="glogo.png"]{ 
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  transform: translate(-20%,0%);
+}
+img[src="linked.png"]{ 
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  
+}
+img[src="facebook.png"]{ 
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  transform: translate(20%,0%);
+}
